@@ -1,0 +1,17 @@
+1.feature_extraction2.py为数据预处理和特征提取的文件，运行时需要修改的参数为data_path和save_path，data_path改为存放TEST1-TEST142这142个csv文件的文件夹cwru的路径，save_path改为输出文件的目标路径。
+
+
+2.lightGBM4.py是调用了cwru.model的文件，运行时需要更改三个参数
+model改为cwru.model存放的路径
+test改为运行feature_extraction2.py后输出的特征文件路径
+opath为输出result文件的目标路径。
+
+需要环境：python3.7环境
+可能需要安装或更新的库：pandas，numpy，lightgbm，sklearn，scipy，os，pip
+
+注意：
+1.feature_extraction2.py使用了os.listdir函数，因此输入参数必须为一个文件夹，它是对cwru文件夹下的所有TEST文件进行遍历然后数据预处理和特征提取的，如果对单个TEST文件进行特征提取可以使用othercode文件夹内的feature_extraction3.py文件。
+
+2.feature_extraction2.py使用了pandas包中的ptp函数，这个函数在较新的pandas包中被移除了，因此需要安装版本为0.25.3及之前的pandas包才能运行，造成不便请谅解。
+
+
