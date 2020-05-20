@@ -1,0 +1,82 @@
+.goodbutton1 {
+  position: absolute;
+  left:10%;
+  bottom: 15%;
+  margin-top: 30px;
+  background-color: rgb(240, 146, 6);
+  color: white;
+  border-radius: 98rpx;
+  background: bg_red;
+}
+/* 按下变颜色 */
+.hover {
+  background:  rgb(156, 236, 236);
+}
+.login{
+  position: absolute;
+  top: 20%;
+  border: 2px solid rgb(121, 110, 110, 0.384);
+  width: 35%;
+  border-radius: 25rpx;
+  right:5%;
+}
+.login1{
+  position: absolute;
+  top:30%;
+  border: 2px solid rgb(121, 110, 110, 0.384);
+  width: 35%;
+  border-radius: 25rpx;
+  right:5%;
+}
+.login2{
+  position: absolute;
+  bottom: 40%;
+  border: 2px solid rgb(121, 110, 110, 0.384);
+  width: 35%;
+  right:5%;
+}
+.title{
+  position: absolute;
+  color:rgb(0, 0, 0);
+  font-size: 35rpx;
+  padding: 100rpx;
+  left:5%;
+  top:5%;
+}
+.title1{
+  position: absolute;
+  color:rgb(0, 0, 0);
+  font-size: 35rpx;
+  padding: 100rpx;
+  top:12%;
+}
+.title2{
+  position: absolute;
+  color:rgb(0, 0, 0);
+  font-size: 35rpx;
+  padding: 100rpx;
+  top:22%;
+}
+.title3{
+  position: absolute;
+  color:rgb(0, 0, 0);
+  font-size: 35rpx;
+  padding: 100rpx;
+  bottom:40%;
+  left: 5%;
+}
+.title4{
+  position: absolute;
+  color:rgb(0, 0, 0);
+  font-size: 35rpx;
+  padding: 100rpx;
+  bottom:32%;
+}
+.line {
+  position: absolute;
+  width: 700rpx;
+  height: 3rpx;
+  background:gray;
+  left:15px;
+  top:300px;
+}

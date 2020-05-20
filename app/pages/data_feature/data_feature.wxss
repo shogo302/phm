@@ -1,0 +1,75 @@
+/* pages/data_feature/data_feature.wxss */
+.goodbutton1 {
+  position: absolute;
+  left:10%;
+  bottom: 15%;
+  margin-top: 30px;
+  background-color: rgb(240, 146, 6);
+  color: white;
+  border-radius: 98rpx;
+  background: bg_red;
+}
+/* 按下变颜色 */
+.hover {
+  background:  rgb(156, 236, 236);
+}
+.goodbutton2 {
+  position: absolute;
+  right:5%;
+  background-color: rgba(134, 174, 226, 0.884);
+  color: white;
+  border-radius: 20rpx;
+  background: bg_red;
+  margin-top: 30px;
+}
+.history-table-wrap{
+  position: absolute;
+  width: 668rpx;
+  height: 578rpx;
+  left: 50%;
+  margin-left: -334rpx;
+  top: 70rpx;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+/* 表格代码   */
+.table{
+  position: absolute;
+  top:15%;
+  border:1px solid #dadada;
+  border-right:0;
+  border-bottom: 0;
+  width: 98%;
+  margin-left: 1%;
+}
+.tr{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+}
+.th,.td{
+  padding: 10px;
+  border-bottom: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  text-align: center;
+  width: 100%;
+}
+.th1,.th2,.th3,.td1,.td2,.td3{
+  width: 50%;
+}
+.th{
+  font-weight: 800;
+  background-color: rgb(51, 125, 223);
+  font-size: 28rpx;
+  color: white;
+}
+.td{
+  font-size: 20rpx;
+  color: black;
+}
+.title{
+  position: absolute;
+  color:rgb(0, 0, 0);
+  font-size: 35rpx;
+  padding: 100rpx;
+}

@@ -1,0 +1,13 @@
+.goodbutton1 {
+  position: absolute;
+  left:10%;
+  bottom: 15%;
+  margin-top: 30px;
+  background-color: rgb(240, 146, 6);
+  color: white;
+  border-radius: 98rpx;
+  background: bg_red;
+}
+.goodbutton{
+  background-color: rgb(194, 25, 25);
+}

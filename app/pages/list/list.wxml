@@ -1,0 +1,24 @@
+<view class='history-table-wrap'>
+  <view class="table">
+      <view class="tr">
+          <view class="th th1">故障报表</view>
+      </view>
+      <view class="tr">
+        <view class='"td'>本次故障检测一共检测{{count}}个数据集</view>
+      </view>
+      <view class="tr">
+        <view class='"td'>第1类故障率为:{{proportion1*100}}%</view>
+      </view>
+      <view class="tr">
+        <view class='"td'>第2类故障率为:{{proportion2*100}}%</view>
+      </view>
+      <view class="tr">
+        <view class='"td'>第3类故障率为:{{proportion3*100}}%</view>
+      </view>
+      <view class="tr">
+        <view class='"td'>总故障率为:{{(proportion1*1+proportion2*1+proportion3*1)*100}}%</view>
+      </view>
+  </view>
+</view>
+<button style="width:80vw" class='goodbutton' hover-class='hover' bindtap="returnTap">退出登录</button>
+<button style="width:80vw" class='goodbutton1' hover-class='hover' bindtap="returnTap1">返回主界面</button>

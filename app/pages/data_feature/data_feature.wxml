@@ -1,0 +1,39 @@
+<!--pages/data_feature/data_feature.wxml-->
+<text class="big-title"></text>
+<button style="width:80vw" class='goodbutton1' hover-class="hover" bindtap="submit">提交参数</button>
+<button style="width:80vw" class='goodbutton' hover-class="hover" bindtap="goto">下一步</button>
+<view class="title">当前设备号:{{divice_id}}</view>
+<view class='history-table-wrap'>
+  <view class="table">
+      <view class="tr">
+          <view class="th th1">参数</view>
+          <view class="th th2">最小值</view>
+          <view class="th th3">最大值</view>
+      </view>
+      <view class="tr">
+          <view class="td td1">{{key_DE_time}}</view>
+          <view class="td td2">{{min_DE_time}}</view>
+          <view class="td td3">{{max_DE_time}}</view>
+      </view>
+      <view class="tr">
+          <view class="td td1">{{key_FE_time}}</view>
+          <view class="td td2">{{min_FE_time}}</view>
+          <view class="td td3">{{max_FE_time}}</view>
+      </view>
+      <view class="tr">
+          <view class="td td1">{{key_BA_time}}</view>
+          <view class="td td2">{{min_BA_time}}</view>
+          <view class="td td3">{{max_BA_time}}</view>
+      </view>
+    <view class="tr">
+          <view class="th th1">参数</view>
+          <view class="th th2">值</view>
+      </view>
+    <view class="tr">
+          <view class="td td1">{{key_RPM}}</view>
+          <view class="td td2">{{RPM}}</view>     
+    </view>  
+  </view>
+</view>
+
+<button style="width:40vw"class='goodbutton2' hover-class="hover" bindtap="setDatas">获取设备数据</button>

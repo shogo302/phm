@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<text class="big-title">欢迎使用轴承故障预测app</text>
+<image class="show" style="opacity:{{1}};width:{{windowWidth}}px" src='../src/zhoucheng.jpg'></image>
+<input class="login" password="true" name='password'  placeholder='请输入管理员密码' bindinput='formName'></input>
+<button style="width:80vw" class="goodbutton" hover-class="hover" bindtap="navToPre">管理员登录</button>

@@ -1,0 +1,15 @@
+<!--pages/data_processing/data_processing.wxml-->
+<!-- <image style="opacity:{{1}};width:{{windowWidth}}px;height:{{windowHeight}}px" src='../src/1.jpg'> -->
+<button style="width:80vw" class='goodbutton1' hover-class="hover" bindtap="submit">提交参数</button>
+<button style="width:80vw" class='goodbutton' hover-class="hover" bindtap="goto">下一步</button>
+<text class='big-title'>设置数据集参数：</text>
+<text class="title">按数据集划分:</text>
+<text class="title1">起始数据集:</text>
+<text class="title2">终止数据集:</text>
+      <input class="login" name='number'  placeholder='请输入起始数据集号码' bindinput='starnumber'></input>
+      <input class="login1" name='number'  placeholder='请输入终止数据集号码' bindinput='endnumber'></input>
+<view class='line'></view>
+<text class="title3">按机组集划分:</text>
+<text class="title4">机组号码:</text>
+<input class="login2" name='number'  placeholder='请输入检测机组号码' bindinput='group'></input>
+<!-- </image> -->

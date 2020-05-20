@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/data_processing/data_processing",
+    "pages/result/result",
+    "pages/data_feature/data_feature",
+    "pages/list/list"
+  ],
+  "window": {
+    "backgroundColor": "#ccc",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "轴承故障预测",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,21 @@
+/**index.wxss**/
+.login{
+  position: absolute;
+  bottom: 30%;
+  border: 2px solid rgb(121, 110, 110, 0.384);
+  width: 35%;
+  border-radius: 25rpx;
+  left:30%;
+  
+}
+.show{
+  position: absolute;
+  top: 15%;
+}
+.big-title{
+  position: absolute;
+  color:rgba(0, 0, 0);
+  top:3%;
+  left:13%;
+  font-size: 35rpx;
+}
